@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Thar Cars - Explore Freedom</title>
+    <style>
+      /* styles.css */
+
+      /* Reset some default styles */
+      body,
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      /* Header Styles */
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .nav-links {
+        list-style: none;
+        display: flex;
+      }
+
+      .nav-links li {
+        margin-right: 20px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+      }
+
+      /* Hero Section Styles */
+      .hero {
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: #111010;
+        padding: 100px 0;
+      }
+
+      .hero-content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      .hero-content p {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+
+      .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff6600;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: #ff3300;
+      }
+
+      /* Features Section Styles */
+      .features {
+        background-color: #fff;
+        padding: 80px 0;
+        text-align: center;
+      }
+
+      .features h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+      }
+
+      .feature-card {
+        margin-bottom: 40px;
+      }
+
+      .feature-card i {
+        font-size: 36px;
+        color: #ff6600;
+      }
+
+      .feature-card h3 {
+        font-size: 24px;
+        margin: 10px 0;
+      }
+
+      .feature-card p {
+        font-size: 16px;
+      }
+
+      /* Pricing Section Styles */
+      .pricing {
+        background-color: #f0f0f0;
+        padding: 80px 0;
+        text-align: center;
+      }
+
+      .pricing h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+      }
+
+      .pricing-card {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin: 0 20px;
+      }
+
+      .pricing-card h3 {
+        font-size: 24px;
+        margin: 10px 0;
+      }
+
+      .pricing-card p {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      .price {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff6600;
+        margin-bottom: 20px;
+      }
+
+      /* Contact Section Styles */
+      .contact {
+        background-color: #fff;
+        padding: 80px 0;
+        text-align: center;
+      }
+
+      .contact h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+      }
+
+      /* Footer Styles */
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      .footer p {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">Thar Cars</div>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <img src="..//vs code programming/assets/Thar car.jpg", height="550px", width="1350px">
+        <h1>Experience the Freedom of Thar Cars</h1>
+        <p>Explore the rugged beauty and adventure with Thar.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h2>Key Features</h2>
+      <div class="feature-card">
+        <i class="fas fa-check-circle"></i>
+        <h3>Off-Road Adventure</h3>
+        <p>Conquer any terrain with ease.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-check-circle"></i>
+        <h3>Convertible Top</h3>
+        <p>Enjoy the open air experience.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-check-circle"></i>
+        <h3>Powerful Engine</h3>
+        <p>Experience the thrill of the ride.</p>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <h2>Pricing Plans</h2>
+      <div class="pricing-card">
+        <h3>Standard</h3>
+        <p>For the adventurous at heart.</p>
+        <span class="price">$29,999</span>
+        <a href="#contact" class="cta-button">Contact Us</a>
+      </div>
+      <div class="pricing-card">
+        <h3>Luxury</h3>
+        <p>For those who demand the best.</p>
+        <span class="price">$39,999</span>
+        <a href="#contact" class="cta-button">Contact Us</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p style="margin-bottom: 20px">If you have any questions or inquiries, feel free to contact us.</p>
+      <a href="mailto:info@tharcars.com" class="cta-button">Email Us</a>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2023 Thar Cars</p>
+    </footer>
+  </body>
+</html>
